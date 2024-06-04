@@ -12,7 +12,32 @@
 - Employee Interface:
   - View Daily Menu
   - Select Lunch Choice
-
+## Project Structure
+```html
+/OfficeLunchMenuManagement
+├── /client
+│   ├── /public
+│   ├── /src
+│   │   ├── /components
+│   │   │   ├── Menu.js
+│   │   │   ├── UserChoice.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── package.json
+├── /server
+│   ├── /controllers
+│   │   ├── menuController.js
+│   │   ├── userController.js
+│   ├── /models
+│   │   ├── Menu.js
+│   │   ├── User.js
+│   ├── /routes
+│   │   ├── menu.js
+│   │   ├── user.js
+│   ├── app.js
+│   ├── package.json
+├── README.md
+```
 ## Database Schema
 
 ### Menu
